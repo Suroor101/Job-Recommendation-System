@@ -1,0 +1,9 @@
+import nltk
+
+punkt
+averaged_perceptron_tagger
+universal_tagset
+maxent_ne_chunker
+stopwords
+wordnet
+brown
