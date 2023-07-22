@@ -1,0 +1,108 @@
+ Volume in drive C is Windows-SSD
+ Volume Serial Number is 70D1-402A
+
+ Directory of C:\Users\LENOVO\Desktop\Job Recommendation System
+
+ Volume in drive C is Windows-SSD
+ Volume Serial Number is 70D1-402A
+
+ Directory of C:\Users\LENOVO\Desktop\Job Recommendation System
+
+06/16/2023  07:21 PM    <DIR>          .
+06/15/2023  09:45 PM    <DIR>          ..
+06/16/2023  07:16 PM             1,602 app.py
+06/16/2023  06:15 PM    <DIR>          data
+06/11/2023  04:16 PM             9,057 en_core_web_sm
+06/11/2023  04:09 PM    <DIR>          en_core_web_sm-2.3.1
+06/11/2023  02:59 PM    <DIR>          instance
+06/11/2023  06:17 PM               105 nltk.txt
+06/11/2023  02:59 PM                21 Procfile
+06/11/2023  02:59 PM             1,964 README.md
+06/11/2023  02:59 PM               346 requirements.txt
+06/16/2023  07:13 PM    <DIR>          resume_screening
+06/11/2023  02:59 PM                13 runtime.txt
+06/11/2023  02:59 PM    <DIR>          static
+06/16/2023  07:21 PM               140 temp.txt
+06/11/2023  02:59 PM    <DIR>          templates
+06/12/2023  12:34 PM            49,141 testing.ipynb
+06/11/2023  08:09 PM                66 wsgi.py
+06/14/2023  11:12 PM    <DIR>          __pycache__
+              10 File(s)         62,455 bytes
+
+
+
+ Directory of C:\Users\LENOVO\Desktop\Job Recommendation System\instance\resume_files
+
+06/11/2023  02:59 PM    <DIR>          .
+06/11/2023  02:59 PM    <DIR>          ..
+06/11/2023  02:59 PM            39,192 180517_Vasanthi Kasinathan.docx
+06/14/2023  07:39 PM            41,293 Arbi Dwi.pdf
+06/11/2023  02:59 PM           468,992 CV-Gloria Cheng2018.doc
+06/14/2023  09:00 PM           310,406 CV.pdf
+06/16/2023  06:48 PM            85,923 CV2.pdf
+06/14/2023  07:40 PM           815,684 dad.pdf
+06/11/2023  09:16 PM            56,463 Dwiky Aprian.pdf
+06/11/2023  02:59 PM            47,364 Fadjrian Gibran.pdf
+06/11/2023  02:59 PM            43,616 Faisal_Rizki.pdf
+06/11/2023  09:32 PM            63,155 Farhan_Ghafara-resume.pdf
+06/11/2023  02:59 PM            42,786 Ferdian_Maulana.pdf
+06/11/2023  02:59 PM            47,226 Hanif Khoirul.pdf
+06/11/2023  02:59 PM            48,500 Ilyas Adiyasa.pdf
+06/11/2023  02:59 PM            78,129 PWang_resume.pdf
+06/11/2023  02:59 PM            40,139 Rangga Syahrial.pdf
+06/11/2023  02:59 PM           639,465 Resume --Rohini Prakash.pdf
+06/12/2023  11:04 AM            56,871 Roberto_Salazar_-_Resume.pdf
+06/12/2023  01:49 PM            46,419 Triardy_S.pdf
+06/16/2023  07:18 PM            53,388 uiux.pdf
+              19 File(s)      3,025,011 bytes
+
+ Directory of C:\Users\LENOVO\Desktop\Job Recommendation System\resume_screening
+
+06/16/2023  07:13 PM    <DIR>          .
+06/16/2023  07:21 PM    <DIR>          ..
+06/16/2023  07:13 PM         2,363,228 combined.csv
+06/16/2023  07:16 PM             4,136 match.py
+06/16/2023  05:28 PM               617 resparser.py
+06/16/2023  07:18 PM    <DIR>          __pycache__
+               3 File(s)      2,367,981 bytes
+
+ 
+
+ Directory of C:\Users\LENOVO\Desktop\Job Recommendation System\static
+
+06/11/2023  02:59 PM    <DIR>          .
+06/16/2023  07:21 PM    <DIR>          ..
+06/11/2023  02:59 PM    <DIR>          img
+06/11/2023  02:59 PM    <DIR>          java
+06/11/2023  02:59 PM    <DIR>          styles
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\LENOVO\Desktop\Job Recommendation System\static\img
+
+06/11/2023  02:59 PM    <DIR>          .
+06/11/2023  02:59 PM    <DIR>          ..
+06/11/2023  02:59 PM            10,897 file-upload.png
+06/11/2023  02:59 PM            13,602 telegram.png
+               2 File(s)         24,499 bytes
+
+ Directory of C:\Users\LENOVO\Desktop\Job Recommendation System\static\java
+
+06/11/2023  02:59 PM    <DIR>          .
+06/11/2023  02:59 PM    <DIR>          ..
+06/11/2023  02:59 PM               432 button.js
+               1 File(s)            432 bytes
+
+ Directory of C:\Users\LENOVO\Desktop\Job Recommendation System\static\styles
+
+06/11/2023  02:59 PM    <DIR>          .
+06/11/2023  02:59 PM    <DIR>          ..
+06/11/2023  09:31 PM             3,075 style.css
+               1 File(s)          3,075 bytes
+
+ Directory of C:\Users\LENOVO\Desktop\Job Recommendation System\templates
+
+06/11/2023  02:59 PM    <DIR>          .
+06/16/2023  07:21 PM    <DIR>          ..
+06/16/2023  05:50 PM             2,818 index.html
+               1 File(s)          2,818 bytes
+

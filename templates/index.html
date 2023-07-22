@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JobRecSys Project</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/style.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <center>
+        <h1 class="title">Job Recommendation System</h1>
+        <h1 class="title">Upload Your Resume/CV</h1>
+        <form method="POST" action="/submit" enctype="multipart/form-data">
+            <input type="text" name="job_name" placeholder="Job Name" style="color: white;" autocomplete="off">  
+            <label for="fileUpload" id="upload">
+                <img src="{{ url_for('static', filename='img/file-upload.png') }}" alt="">
+                <span id="text">Choose File</span>
+            </label>
+            <input type="file" name="userfile" id="fileUpload" hidden>
+            <label for="submit">
+                <img src="{{ url_for('static', filename='img/telegram.png') }}" alt="">
+                <span>Submit</span>
+            </label>
+            <input type="submit" id="submit" hidden>
+        </form>
+        <div id="result" class="job_recommendation">
+            <table>
+                <tr>
+                    {% for col in column_names %}
+                    <th>{{ col }}</th>
+                    {% endfor %}
+                </tr>
+                  {% for row in row_data %}
+                <tr>
+                    {% for col, row_ in zip(column_names, row) %}
+                    {% if col == link_column %}
+                    <td>
+                        <a href="{{ row_ }}">
+                            <button type="submit" value="{{ row_ }}" name="link" form="link_form" class="link_button">
+                                Apply
+                            </button>
+                        </a>
+                    </td>
+                    {% else %}
+                    <td>{{ row_ }}</td>
+                    {% endif %}
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+        <section class="missing-skills">
+            {% if show_missing_skills %}
+            <h2>Missing Skills</h2>
+            <ul>
+                {% for skill in missing_skills %}
+                <li>{{ skill }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </section>
+        
+    </center>
+    <footer>
+    </footer>
+    <script src="{{ url_for('static', filename='java/button.js') }}"></script>
+</body>
+</html>
